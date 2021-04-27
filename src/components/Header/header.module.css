@@ -1,0 +1,85 @@
+.navbar {
+  width: 100%;
+  display: inline-flex;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  padding: 5px 0px;
+}
+.left {
+  display: flex;
+  width: 20%;
+}
+.middle {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.right {
+  display: flex;
+  width: 20%;
+  margin: auto;
+}
+.brand {
+  display: flex;
+  margin: 0px 5px;
+}
+.brand img {
+  margin: auto;
+  width: 100px;
+  max-height: 60px;
+}
+.search {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-left: 0;
+}
+.search form {
+  width: 100%;
+}
+.location {
+  margin: auto;
+  margin-left: 0px;
+}
+.input_box {
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+.input_box input {
+  font-size: 1rem;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #707070;
+}
+.input_box input:focus {
+  outline: none;
+}
+
+.profile {
+  display: flex;
+  margin: 0px 10px;
+}
+.profile span {
+  display: flex;
+  margin: auto;
+  display: flex;
+}
+.cart {
+  margin: 0px 15px;
+}
+.cart img {
+  width: 30px;
+}
+@media (max-width: 576px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
